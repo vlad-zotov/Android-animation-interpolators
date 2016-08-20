@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="ball_size">50dp</dimen>
+    <dimen name="ball_margin">200dp</dimen>
+</resources>

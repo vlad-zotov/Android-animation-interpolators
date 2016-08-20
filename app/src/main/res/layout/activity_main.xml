@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/ball_view"
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/ball_margin"
+        android:background="@drawable/round_background"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:overlapAnchor="false" />
+
+    <Button
+        android:id="@+id/change_animator_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="swap"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/spinner"/>
+</RelativeLayout>
